@@ -1,0 +1,639 @@
+EESchema Schematic File Version 4
+LIBS:MAX7219 8 Digit Large-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "MAX7219 8 Digit Large"
+Date "19th February 2019"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Entry Wire Line
+	5350 2900 5450 3000
+Entry Wire Line
+	5350 3050 5450 3150
+Entry Wire Line
+	5350 3200 5450 3300
+Entry Wire Line
+	5350 3350 5450 3450
+Entry Wire Line
+	5350 3800 5450 3900
+Entry Wire Line
+	5350 3950 5450 4050
+Entry Wire Line
+	5350 4100 5450 4200
+Entry Wire Line
+	5350 4250 5450 4350
+Text Label 5175 2900 0    50   ~ 0
+D
+Text Label 5175 3050 0    50   ~ 0
+DP
+Text Label 5175 3200 0    50   ~ 0
+E
+Text Label 5175 3350 0    50   ~ 0
+C
+Text Label 5200 3800 0    50   ~ 0
+G
+Text Label 5200 3950 0    50   ~ 0
+B
+Text Label 5200 4100 0    50   ~ 0
+F
+Text Label 5200 4250 0    50   ~ 0
+A
+Wire Wire Line
+	3825 2750 3025 2750
+Wire Wire Line
+	4975 4400 5125 4400
+Wire Wire Line
+	4975 2750 5250 2750
+Text Notes 2275 1800 0    50   ~ 0
++5V
+Text Notes 2275 1900 0    50   ~ 0
+GND
+Text Notes 2250 2000 0    50   ~ 0
+D-IN
+Text Notes 2325 2100 0    50   ~ 0
+CS
+Text Notes 2300 2200 0    50   ~ 0
+CLK
+Wire Wire Line
+	4975 3500 5125 3500
+Wire Wire Line
+	5125 3500 5125 2575
+Wire Wire Line
+	3825 3950 3250 3950
+Wire Wire Line
+	3250 3950 3250 3200
+Wire Wire Line
+	3250 3200 3825 3200
+Wire Wire Line
+	3250 3950 3250 4100
+Connection ~ 3250 3950
+Text Notes 10525 6275 0    50   ~ 0
+Mounting Holes
+Wire Wire Line
+	5750 3650 5750 3300
+Wire Wire Line
+	5750 3000 5750 2425
+Wire Wire Line
+	7675 3100 7675 3225
+Connection ~ 7675 3225
+Wire Wire Line
+	7675 3225 7675 3325
+Wire Wire Line
+	7675 2800 7675 2700
+Connection ~ 7675 2700
+Wire Wire Line
+	7675 2700 7675 2600
+Wire Wire Line
+	5750 4775 5750 5025
+Wire Wire Line
+	5850 5025 5850 4775
+Wire Wire Line
+	5650 5025 5650 4775
+Wire Wire Line
+	5550 5025 5550 4775
+Wire Wire Line
+	6050 4775 6050 5025
+Wire Wire Line
+	6150 5025 6150 4775
+Wire Wire Line
+	5950 5025 5950 4775
+Wire Wire Line
+	6350 5025 6350 4775
+Text Label 5550 4925 0    50   ~ 0
+A
+Text Label 5650 4925 0    50   ~ 0
+B
+Text Label 5750 4925 0    50   ~ 0
+C
+Text Label 5850 4925 0    50   ~ 0
+D
+Text Label 5950 4925 0    50   ~ 0
+E
+Text Label 6050 4925 0    50   ~ 0
+F
+Text Label 6150 4925 0    50   ~ 0
+G
+Text Label 6350 4925 0    50   ~ 0
+DP
+Entry Wire Line
+	6050 4675 6150 4775
+Entry Wire Line
+	5450 4675 5550 4775
+Entry Wire Line
+	5550 4675 5650 4775
+Entry Wire Line
+	5650 4675 5750 4775
+Entry Wire Line
+	5750 4675 5850 4775
+Entry Wire Line
+	5850 4675 5950 4775
+Entry Wire Line
+	5950 4675 6050 4775
+Entry Wire Line
+	6250 4675 6350 4775
+Wire Wire Line
+	5800 5975 5800 6325
+$Comp
+L DRM_Fixings:Fixing_Hole Fix_Hole1
+U 1 1 5B55B8E4
+P 10575 6375
+F 0 "Fix_Hole1" H 10653 6375 50  0000 L CNN
+F 1 "Fixing_Hole" H 10525 6475 50  0001 C CNN
+F 2 "DRM_Mounting:M2-5_Fixing_Hole_DRM" H 10575 6375 50  0001 C CNN
+F 3 "" H 10575 6375 50  0001 C CNN
+	1    10575 6375
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Fixings:Fixing_Hole Fix_Hole2
+U 1 1 5B56310F
+P 10575 6525
+F 0 "Fix_Hole2" H 10653 6525 50  0000 L CNN
+F 1 "Fixing_Hole" H 10525 6625 50  0001 C CNN
+F 2 "DRM_Mounting:M2-5_Fixing_Hole_DRM" H 10575 6525 50  0001 C CNN
+F 3 "" H 10575 6525 50  0001 C CNN
+	1    10575 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Fixings:Fixing_Hole Fix_Hole3
+U 1 1 5B563153
+P 10575 6675
+F 0 "Fix_Hole3" H 10653 6675 50  0000 L CNN
+F 1 "Fixing_Hole" H 10525 6775 50  0001 C CNN
+F 2 "DRM_Mounting:M2-5_Fixing_Hole_DRM" H 10575 6675 50  0001 C CNN
+F 3 "" H 10575 6675 50  0001 C CNN
+	1    10575 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Fixings:Fixing_Hole Fix_Hole4
+U 1 1 5B56319F
+P 10575 6825
+F 0 "Fix_Hole4" H 10653 6825 50  0000 L CNN
+F 1 "Fixing_Hole" H 10525 6925 50  0001 C CNN
+F 2 "DRM_Mounting:M2-5_Fixing_Hole_DRM" H 10575 6825 50  0001 C CNN
+F 3 "" H 10575 6825 50  0001 C CNN
+	1    10575 6825
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10500 6175 10500 6925
+Wire Notes Line
+	10500 6925 11150 6925
+Wire Notes Line
+	11150 6925 11150 6175
+Wire Notes Line
+	11150 6175 10500 6175
+Wire Wire Line
+	7150 4775 7150 5025
+Wire Wire Line
+	7250 5025 7250 4775
+Wire Wire Line
+	7050 5025 7050 4775
+Wire Wire Line
+	6950 5025 6950 4775
+Wire Wire Line
+	7450 4775 7450 5025
+Wire Wire Line
+	7550 5025 7550 4775
+Wire Wire Line
+	7350 5025 7350 4775
+Wire Wire Line
+	7750 5025 7750 4775
+Text Label 6950 4925 0    50   ~ 0
+A
+Text Label 7050 4925 0    50   ~ 0
+B
+Text Label 7150 4925 0    50   ~ 0
+C
+Text Label 7250 4925 0    50   ~ 0
+D
+Text Label 7350 4925 0    50   ~ 0
+E
+Text Label 7450 4925 0    50   ~ 0
+F
+Text Label 7550 4925 0    50   ~ 0
+G
+Text Label 7750 4925 0    50   ~ 0
+DP
+Entry Wire Line
+	7450 4675 7550 4775
+Entry Wire Line
+	6850 4675 6950 4775
+Entry Wire Line
+	6950 4675 7050 4775
+Entry Wire Line
+	7050 4675 7150 4775
+Entry Wire Line
+	7150 4675 7250 4775
+Entry Wire Line
+	7250 4675 7350 4775
+Entry Wire Line
+	7350 4675 7450 4775
+Entry Wire Line
+	7650 4675 7750 4775
+Wire Wire Line
+	6050 5975 6050 6325
+Wire Wire Line
+	6300 5975 6300 6325
+Wire Wire Line
+	6950 5975 6950 6325
+Wire Wire Line
+	7200 5975 7200 6325
+Wire Wire Line
+	7450 5975 7450 6325
+Wire Wire Line
+	7700 5975 7700 6325
+Text Label 5800 6200 0    50   ~ 0
+D6
+Text Label 6050 6200 0    50   ~ 0
+D5
+Text Label 6300 6200 0    50   ~ 0
+D4
+Text Label 6950 6200 0    50   ~ 0
+D3
+Text Label 7200 6200 0    50   ~ 0
+D2
+Text Label 7450 6200 0    50   ~ 0
+D1
+Text Label 7700 6200 0    50   ~ 0
+D0
+Entry Wire Line
+	5550 6325 5450 6425
+Wire Wire Line
+	5550 5975 5550 6325
+Text Label 5550 6200 0    50   ~ 0
+D7
+Entry Wire Line
+	3425 3000 3525 2900
+Entry Wire Line
+	3425 3150 3525 3050
+Entry Wire Line
+	3425 3450 3525 3350
+Entry Wire Line
+	3425 3600 3525 3500
+Entry Wire Line
+	3425 3750 3525 3650
+Entry Wire Line
+	3425 3900 3525 3800
+Entry Wire Line
+	3425 4200 3525 4100
+Entry Wire Line
+	3425 4350 3525 4250
+Text Label 3600 2900 0    50   ~ 0
+D0
+Text Label 3600 3050 0    50   ~ 0
+D4
+Text Label 3600 3350 0    50   ~ 0
+D6
+Text Label 3600 3500 0    50   ~ 0
+D2
+Text Label 3600 3650 0    50   ~ 0
+D3
+Text Label 3600 3800 0    50   ~ 0
+D7
+Text Label 3600 4100 0    50   ~ 0
+D5
+Text Label 3600 4250 0    50   ~ 0
+D1
+Entry Wire Line
+	5800 6325 5700 6425
+Entry Wire Line
+	6050 6325 5950 6425
+Entry Wire Line
+	6300 6325 6200 6425
+Entry Wire Line
+	6950 6325 6850 6425
+Entry Wire Line
+	7200 6325 7100 6425
+Entry Wire Line
+	7450 6325 7350 6425
+Entry Wire Line
+	7700 6325 7600 6425
+Wire Wire Line
+	3525 2900 3825 2900
+Wire Wire Line
+	3525 3050 3825 3050
+Wire Wire Line
+	3525 3350 3825 3350
+Wire Wire Line
+	3525 3500 3825 3500
+Wire Wire Line
+	3525 3650 3825 3650
+Wire Wire Line
+	3525 3800 3825 3800
+Wire Wire Line
+	3525 4100 3825 4100
+Wire Wire Line
+	3525 4250 3825 4250
+Wire Bus Line
+	3425 4950 4975 4950
+Wire Bus Line
+	4975 4950 4975 6425
+Wire Wire Line
+	5250 2750 5250 2275
+Wire Wire Line
+	5250 2275 4050 2275
+Wire Wire Line
+	2750 1975 3025 1975
+Wire Wire Line
+	3025 1975 3025 2750
+Wire Wire Line
+	2950 4400 2950 2075
+Wire Wire Line
+	2950 2075 2750 2075
+Wire Wire Line
+	2950 4400 3825 4400
+Wire Wire Line
+	5125 4400 5125 4700
+Wire Wire Line
+	5125 4700 2875 4700
+Wire Wire Line
+	2875 4700 2875 2175
+Wire Wire Line
+	2875 2175 2750 2175
+Wire Wire Line
+	2750 1875 3500 1875
+Wire Wire Line
+	3500 1875 3500 2375
+Wire Wire Line
+	2750 1775 3500 1775
+Wire Wire Line
+	3500 1775 3500 1475
+Wire Wire Line
+	4975 2900 5350 2900
+Wire Wire Line
+	4975 3050 5350 3050
+Wire Wire Line
+	4975 3200 5350 3200
+Wire Wire Line
+	4975 3350 5350 3350
+Wire Wire Line
+	4975 3800 5350 3800
+Wire Wire Line
+	4975 3950 5350 3950
+Wire Wire Line
+	4975 4100 5350 4100
+Wire Wire Line
+	4975 4250 5350 4250
+Wire Wire Line
+	4975 3650 5750 3650
+$Comp
+L DRM_Device:R R1
+U 1 1 5C6CC9AB
+P 5750 3150
+F 0 "R1" H 5820 3196 50  0000 L CNN
+F 1 "10K" H 5820 3105 50  0000 L CNN
+F 2 "DRM_Parts_SMD:Resistor_0603__Metric" V 5680 3150 50  0001 C CNN
+F 3 "~" H 5750 3150 50  0001 C CNN
+	1    5750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Power:+5V #PWR05
+U 1 1 5C6CCB24
+P 5750 2425
+F 0 "#PWR05" H 5750 2275 50  0001 C CNN
+F 1 "+5V" H 5765 2598 50  0000 C CNN
+F 2 "" H 5750 2425 50  0001 C CNN
+F 3 "" H 5750 2425 50  0001 C CNN
+	1    5750 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Power:GND #PWR03
+U 1 1 5C6CEC87
+P 3500 2375
+F 0 "#PWR03" H 3500 2125 50  0001 C CNN
+F 1 "GND" H 3505 2202 50  0000 C CNN
+F 2 "" H 3500 2375 50  0001 C CNN
+F 3 "" H 3500 2375 50  0001 C CNN
+	1    3500 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Power:GND #PWR01
+U 1 1 5C6CED5F
+P 3250 4100
+F 0 "#PWR01" H 3250 3850 50  0001 C CNN
+F 1 "GND" H 3255 3927 50  0000 C CNN
+F 2 "" H 3250 4100 50  0001 C CNN
+F 3 "" H 3250 4100 50  0001 C CNN
+	1    3250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Power:GND #PWR07
+U 1 1 5C6CEDE2
+P 7675 3325
+F 0 "#PWR07" H 7675 3075 50  0001 C CNN
+F 1 "GND" H 7680 3152 50  0000 C CNN
+F 2 "" H 7675 3325 50  0001 C CNN
+F 3 "" H 7675 3325 50  0001 C CNN
+	1    7675 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Power:+5V #PWR06
+U 1 1 5C6CEE32
+P 7675 2600
+F 0 "#PWR06" H 7675 2450 50  0001 C CNN
+F 1 "+5V" H 7690 2773 50  0000 C CNN
+F 2 "" H 7675 2600 50  0001 C CNN
+F 3 "" H 7675 2600 50  0001 C CNN
+	1    7675 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Power:+5V #PWR02
+U 1 1 5C6CEEE3
+P 3500 1475
+F 0 "#PWR02" H 3500 1325 50  0001 C CNN
+F 1 "+5V" H 3515 1648 50  0000 C CNN
+F 2 "" H 3500 1475 50  0001 C CNN
+F 3 "" H 3500 1475 50  0001 C CNN
+	1    3500 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_IC:MAX7219 U1
+U 1 1 5C6CEFB9
+P 3825 2750
+F 0 "U1" H 4400 3015 50  0000 C CNN
+F 1 "MAX7219" H 4400 2924 50  0000 C CNN
+F 2 "DRM_Parts_SMD:SOIC-24W_7.5x15.4mm_P1.27mm" H 5075 1550 50  0001 C CNN
+F 3 "" H 5075 1550 50  0001 C CNN
+	1    3825 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_LED:4_Digit_LED_5461 L1
+U 1 1 5C6CF11D
+P 5550 5975
+F 0 "L1" H 6528 6450 50  0000 L CNN
+F 1 "4_Digit_LED_5461" H 5450 7275 50  0001 C CNN
+F 2 "LED_Display_DRM:LED_7_Segment_4_Digit_5461" H 5550 5975 50  0001 C CNN
+F 3 "" H 5550 5975 50  0001 C CNN
+	1    5550 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_LED:4_Digit_LED_5461 L2
+U 1 1 5C6CF1AA
+P 6950 5975
+F 0 "L2" H 7928 6450 50  0000 L CNN
+F 1 "4_Digit_LED_5461" H 6850 7275 50  0001 C CNN
+F 2 "LED_Display_DRM:LED_7_Segment_4_Digit_5461" H 6950 5975 50  0001 C CNN
+F 3 "" H 6950 5975 50  0001 C CNN
+	1    6950 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Power:+5V #PWR04
+U 1 1 5C6CF285
+P 5125 2575
+F 0 "#PWR04" H 5125 2425 50  0001 C CNN
+F 1 "+5V" H 5140 2748 50  0000 C CNN
+F 2 "" H 5125 2575 50  0001 C CNN
+F 3 "" H 5125 2575 50  0001 C CNN
+	1    5125 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Device:C C2
+U 1 1 5C6CF34C
+P 8500 2950
+F 0 "C2" H 8325 3050 50  0000 L CNN
+F 1 "0.1uF" H 8625 2800 50  0000 L CNN
+F 2 "DRM_Parts_SMD:Cap_0603_Metric" H 8538 2800 50  0001 C CNN
+F 3 "~" H 8500 2950 50  0001 C CNN
+	1    8500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Device:CP C1
+U 1 1 5C6E644F
+P 7675 2950
+F 0 "C1" H 7475 3050 50  0000 L CNN
+F 1 "10uF 10V" H 7725 2800 50  0000 L CNN
+F 2 "DRM_Parts_SMD:SMD_Tant_Cap_1206" H 7713 2800 50  0001 C CNN
+F 3 "~" H 7675 2950 50  0001 C CNN
+	1    7675 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Device:D D1
+U 1 1 5C6EA1CA
+P 7000 2975
+F 0 "D1" V 6900 2825 50  0000 L CNN
+F 1 "SS14" V 7125 3025 50  0000 L CNN
+F 2 "DRM_Parts_SMD:SS14 Diode" H 7000 2975 50  0001 C CNN
+F 3 "~" H 7000 2975 50  0001 C CNN
+	1    7000 2975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 2825 7000 2700
+Wire Wire Line
+	7000 2700 7675 2700
+Wire Wire Line
+	8500 2700 8500 2800
+Wire Wire Line
+	7675 2700 8500 2700
+Wire Wire Line
+	8500 3100 8500 3225
+Wire Wire Line
+	7675 3225 8500 3225
+Wire Wire Line
+	7000 3225 7000 3125
+Wire Wire Line
+	7000 3225 7675 3225
+$Comp
+L DRM_Conectors:Connector_5_Way J2
+U 1 1 5C6FC5CC
+P 4200 1775
+F 0 "J2" H 4325 1900 50  0000 L CNN
+F 1 "Connector_5_Way" H 4360 1980 50  0001 C CNN
+F 2 "DRM_Connectors:5 Way Header" H 4200 1775 50  0001 C CNN
+F 3 "" H 4200 1775 50  0001 C CNN
+	1    4200 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L DRM_Conectors:Connector_5_Way J1
+U 1 1 5C6FC628
+P 2750 1775
+F 0 "J1" H 2844 1908 50  0000 C CNN
+F 1 "Connector_5_Way" H 2910 1980 50  0001 C CNN
+F 2 "DRM_Connectors:5 Way Header" H 2750 1775 50  0001 C CNN
+F 3 "" H 2750 1775 50  0001 C CNN
+	1    2750 1775
+	-1   0    0    -1  
+$EndComp
+Text Notes 2150 1575 0    50   ~ 0
+Left Connector - INPUT
+Text Notes 3925 1575 0    50   ~ 0
+Right Connector - OUTPUT
+Text Notes 4475 1800 0    50   ~ 0
++5V
+Text Notes 4475 1900 0    50   ~ 0
+GND
+Text Notes 4475 2000 0    50   ~ 0
+D-OUT
+Text Notes 4475 2100 0    50   ~ 0
+CS
+Text Notes 4475 2200 0    50   ~ 0
+CLK
+Wire Wire Line
+	3500 1875 4200 1875
+Connection ~ 3500 1875
+Wire Wire Line
+	4200 1775 3500 1775
+Connection ~ 3500 1775
+Wire Wire Line
+	2950 2075 4200 2075
+Connection ~ 2950 2075
+Wire Wire Line
+	4200 1975 4050 1975
+Wire Wire Line
+	4050 1975 4050 2275
+Wire Wire Line
+	4200 2175 2875 2175
+Connection ~ 2875 2175
+Text Label 4800 2275 0    50   ~ 0
+D-OUT
+Text Label 3125 2750 0    50   ~ 0
+D-IN
+Text Label 3150 2075 0    50   ~ 0
+CS
+Text Label 3150 2175 0    50   ~ 0
+CLK
+$Comp
+L DRM_Logos:DRM_Logo_2.5mm -1
+U 1 1 5C6C4025
+P 10825 7150
+F 0 "-1" H 10855 7360 50  0001 C CNN
+F 1 "DRM_Logo_2.5mm" H 10905 7290 50  0001 C CNN
+F 2 "DRM_Logos:DRM_Logo_2.5mm" H 10725 7500 50  0001 C CNN
+F 3 "" H 10725 7500 50  0001 C CNN
+	1    10825 7150
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	4975 6425 7600 6425
+Wire Bus Line
+	3425 3000 3425 4950
+Wire Bus Line
+	5450 3000 5450 4675
+Wire Bus Line
+	5450 4675 7650 4675
+$EndSCHEMATC
