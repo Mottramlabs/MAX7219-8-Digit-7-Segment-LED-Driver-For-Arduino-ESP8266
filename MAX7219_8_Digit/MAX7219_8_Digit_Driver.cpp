@@ -23,7 +23,7 @@ MAX7219_8_Digit_Driver::MAX7219_8_Digit_Driver(int Pin, int MAX7219_Chips) {
 
   digitalWrite(_Pin, HIGH);  // Take CS High
 
-#if defined(__AVR_ATmega168__) ||defined(__AVR_ATmega168P__) ||defined(__AVR_ATmega328P__)
+#if defined(__AVR_ATmega168__) ||defined(__AVR_ATmega168P__) ||defined(__AVR_ATmega328P__) ||defined(__AVR_ATmega32U4__)
   Serial.println("Hello UNO");
 #else
   Serial.println("Hello ESP8266");
