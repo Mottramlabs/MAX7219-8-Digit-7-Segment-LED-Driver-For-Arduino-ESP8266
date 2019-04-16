@@ -1,6 +1,9 @@
 /*
     simple demo using an UNO and a Type-C Shield
     15th Arpril 2019
+    Notes:
+    If using the Leonardo board the SPI port is on the 6 pin header not the 10 way header as per the UNO.
+    Jumper wires are needed from the 6 pin header for MOSI and CLK.
 */
 
 #include <SPI.h>
